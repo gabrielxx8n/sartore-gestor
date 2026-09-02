@@ -1,0 +1,40 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# Credenciales, tokens y secretos: NUNCA subir
+credentials.json
+token.json
+.env
+.streamlit/secrets.toml
+
+# Datos privados y archivos generados por la aplicación
+clientes_actual.xlsx
+historial_envios.csv
+resultado_envio.csv
+ultimo_correo_generado.html
+
+# Encuestas cargadas y sus metadatos
+encuestas/*.csv
+encuestas/*.json
+!encuestas/.gitkeep
+
+# Archivos locales de datos opcionales
+data/*.xlsx
+data/*.xls
+data/*.csv
+!data/.gitkeep
+
+# Sistema operativo y editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
